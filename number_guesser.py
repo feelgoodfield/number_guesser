@@ -22,8 +22,7 @@ def play_game():
         elif guess > number:
             print("Too high.")
         else:
-            print(f"Congratulations! You guessed it in {attempts} 
-attempts.")
+            print(f"Congratulations! You guessed it in {attempts} attempts.")
             break
 
 if __name__ == "__main__":
